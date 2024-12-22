@@ -1,0 +1,22 @@
+.bg_container {
+  /* background-color: #d9d9d9; */
+  /* background-color: #8381ff; */
+}
+
+.shopping_div img {
+  height: 30rem;
+  animation: upDown 2s infinite; /* 2 seconds duration, infinite loop */
+}
+@keyframes upDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px); /* Adjust for how high it moves */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
